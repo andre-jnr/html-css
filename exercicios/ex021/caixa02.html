@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      header {
+        background-color: white;
+        padding: 5px;
+        margin: 10px;
+        text-align: center;
+      }
+
+      main {
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        border-radius: 20px 0px;
+        box-shadow: 4px 4px 9px 0px rgba(0, 0, 0, 0.358);
+        /* border-radius: 15px 15px 15px 15px ;*/
+        /* border-radius: 10px 20px; - diagonal */
+      }
+
+      nav {
+        background-color: rgb(166, 163, 163);
+        outline: 1px solid rgba(0, 0, 0, 0.186);
+        padding: 3px;
+        box-shadow: 5px 3px 7px 1px rgba(0, 0, 0, 0.432);
+      }
+
+      nav > a {
+        text-decoration: none;
+        text-align: center;
+        color: black;
+        font-weight: bold;
+        margin-right: 40px;
+      }
+
+      nav > a:hover {
+        text-decoration: underline;
+        color: lightblue;
+        font-weight: bold;
+      }
+
+      article {
+        background-color: lightgray;
+        padding: 5px;
+      }
+
+      footer {
+        background-color: black;
+        color: white;
+        text-align: right;
+        padding: 5px 20px;
+        margin: 0px;
+      }
+
+      footer > p {
+        margin: 0px;
+      }
+
+      #bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50%;
+      }
+    </style>
+    <title>Grouping tags</title>
+  </head>
+  <body>
+    <header>
+      <h1>Meu site</h1>
+      <nav>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+        <a href="#">link</a>
+      </nav>
+    </header>
+    <main>
+      <section id="assuntos">
+        <p>Tecnologia Ciências Filosofia</p>
+      </section>
+      <section id="noticias">
+        <article>
+          <h2>Homem morre</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            neque repudiandae, unde quos voluptates pariatur a, est, voluptatem
+            ducimus id architecto asperiores! Repellat eaque laudantium nostrum
+            laborum et, totam eveniet!
+          </p>
+          <aside>
+            <p>Artigo do Júnior</p>
+          </aside>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p>Desenvolvido por André Júnior</p>
+    </footer>
+    <div id="bola"></div>
+  </body>
+</html>
