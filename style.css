@@ -52,7 +52,7 @@ hr {
   background-size: 100%;
   width: 200px;
   height: 200px;
-  border-radius: 100%;
+  border-radius: 50%;
   overflow: hidden;
 }
 
@@ -184,6 +184,10 @@ a:visited {
 
 #android {
   background: url(imgs/04-desafio-android.png) center/cover;
+}
+
+#projeto-cordel {
+  background: url(imgs/12-projeto-cordel.png) center/cover;
 }
 
 .tituloCard {
