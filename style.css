@@ -194,6 +194,14 @@ a:visited {
   background: url(imgs/12-projeto-cordel.png) center/cover;
 }
 
+#tabela-mesclada {
+  background: url(imgs/Desafio13.png) center/cover;
+}
+
+#colgrups {
+  background: url(imgs/23-exercicio.png) center/cover;
+}
+
 .tituloCard {
   color: purple;
 }
