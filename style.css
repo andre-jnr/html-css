@@ -206,6 +206,10 @@ a:visited {
   background: url(imgs/24-exercicio.png) center/cover;
 }
 
+#projeto-social {
+  background: url(imgs/projeto-social.png) center/cover;
+}
+
 .tituloCard {
   color: purple;
 }
