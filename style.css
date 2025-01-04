@@ -9,7 +9,8 @@ html {
   background-color: black;
 }
 
-h1, h2 {
+h1,
+h2 {
   margin-left: 20px;
   margin-bottom: 5px;
   color: purple;
@@ -142,6 +143,14 @@ a:visited {
   background: url(imgs/15-exercicio.png) center/cover;
 }
 
+#cores-css {
+  background: url(imgs/16-1-cores-css.png) center/cover;
+}
+
+#gradiente-css {
+  background: url(imgs/16-2-testando-gradientes.png) center/cover;
+}
+
 #coresCSS {
   background: url(imgs/16-exercicio.png) center/cover;
 }
@@ -158,16 +167,40 @@ a:visited {
   background: url(imgs/19-seletores.png) center/cover;
 }
 
+#hover {
+  background: url(imgs/20-1-hover.png) center/cover;
+}
+
 #pseudoclasses {
-  background: url(imgs/20-pseudoclasses.png) center/cover;
+  background: url(imgs/20-2-pseudoclasses.png) center/cover;
+}
+
+#passe-o-mouse {
+  background: url(imgs/20-3-passe-o-mouse.png) center/cover;
 }
 
 #box-level {
   background: url(imgs/21-box-level.png) center/cover;
 }
 
+#divs {
+  background: url(imgs/21-2-ex-box.png) center/cover;
+}
+
 #background-image {
   background: url(imgs/22-background-image.png) center/cover;
+}
+
+#background-repeat {
+  background: url(imgs/22-2-repeat.png) center/cover;
+}
+
+#posicoes-de-fundo {
+  background: url(imgs/22-3-posicoes.png) center/cover;
+}
+
+#left-bottom {
+  background: url(imgs/22-4-left-bottom.png) center/cover;
 }
 
 #tabelas {
