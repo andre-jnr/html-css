@@ -251,6 +251,33 @@ a:visited {
   background: url(imgs/25-exercicio03.png) center/cover;
 }
 
+#formularios-legend {
+  background: url(imgs/25-exercicio04.png) center/cover;
+}
+
+#radio-checkbox {
+  background: url(imgs/25-exercicio05.png) center/cover;
+}
+
+#cor-nivel-foto {
+  background: url(imgs/25-exercicio06.png) center/cover;
+}
+
+#forms-optgroup {
+  background: url(imgs/25-exercicio07.png) center/cover;
+}
+
+#output-innerhtml {
+  background: url(imgs/25-exercicio08.png) center/cover;
+}
+
+#form-range {
+  background: url(imgs/25-exercicio09.png) center/cover;
+}
+
+#form-oninput {
+  background: url(imgs/25-exercicio10.png) center/cover;
+}
 
 #projeto-social {
   background: url(imgs/projeto-social.png) center/cover;
