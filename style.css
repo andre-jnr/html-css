@@ -279,6 +279,14 @@ a:visited {
   background: url(imgs/25-exercicio10.png) center/cover;
 }
 
+#mq-print {
+  background: url(imgs/26-exercicio.png) center/cover;
+}
+
+#mq-pela-orientacao {
+  background: url(imgs/26-exercicio02.png) center/cover;
+}
+
 #projeto-social {
   background: url(imgs/projeto-social.png) center/cover;
 }
