@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Detran</title>
+</head>
+<body>
+    <h1>Sistema de multa</h1>
+    Velocidade do carro: <input type="number" name="txt-velocidade" id="txt-velocidade"> Km/h
+    <br>
+    <input type="button" value="verificar" onclick="calcular()">
+    <div id="resultado">
+
+    </div>
+
+    <script>
+        function calcular () {
+            var txtVelocidade = document.querySelector('input#txt-velocidade');
+            var resultado = document.querySelector('div#resultado');
+            var velocidade = Number(txtVelocidade.value);
+            resultado.innerHTML = `<p>Sua velocidade é de <strong> ${velocidade} </strong> km/h </p>`;
+
+            if (velocidade > 60) {
+                resultado.innerHTML += `<p>Você está <strong>multado</strong> por excesso de velocidade!</p>`;
+            }
+
+            resultado.innerHTML += `<p>Dirija sempre com cinto de segurança! </p>`;
+        }
+        
+        /*
+            Pega país que a pessoa mora e retorna se ela é estrangeira ou
+            brasileira!
+        */
+    </script>
+
+</body>
+</html>
