@@ -8,6 +8,11 @@ function verificarPessoa() {
   var genero =  verificarGenero(sexo.id);
   var idade = verificarIdade(anoNascimento);
 
+  if (idade < 0 || anoNascimento < 0) {
+    alert('[ERROR]: Digite uma data válida!');
+    return;
+  }
+
   if (idade === 1) {
     resultado.innerHTML = `Dectetamos: ${genero} com ${idade} ano`;
   } else {
