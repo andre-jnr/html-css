@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hora do Dia</title>
+    <style>
+        body {
+            text-align: center;
+            font-family: Arial, sans-serif;
+            transition: background-color 0.5s;
+        }
+        #container {
+            margin-top: 50px;
+        }
+        img {
+            width: 300px;
+            height: auto;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body onload="atualizarHorario()">
+    <div id="container">
+        <h1 id="hora"></h1>
+        <img id="imagem" src="" alt="Imagem do período do dia">
+    </div>
+    
+    <script>
+        function atualizarHorario() {
+            let agora = new Date();
+            let hora = agora.getHours();
+            let minutos = agora.getMinutes();
+            let segundos = agora.getSeconds();
+            let horarioTexto = `${hora}:${minutos < 10 ? '0' : ''}${minutos}:${segundos < 10 ? '0' : ''}${segundos}`;
+            
+            document.getElementById("hora").innerText = horarioTexto;
+            let imagem = document.getElementById("imagem");
+            let corpo = document.body;
+            
+            if (hora >= 6 && hora < 12) {
+                imagem.src = "imgs/manha.jpg";
+                corpo.style.backgroundColor = "#f1c40f"; 
+            } else if (hora >= 12 && hora < 18) {
+                imagem.src = "imgs/tarde.jpg";
+                corpo.style.backgroundColor = "#e67e22"; 
+            } else {
+                imagem.src = "imgs/noite.jpg";
+                corpo.style.backgroundColor = "#2c3e50"; 
+            }
+            setTimeout(atualizarHorario, 1000);
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,45 @@
+img {
+  height: 300px;
+  width: 300px;
+  border-radius: 50%;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.3em;
+  text-align: center;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+a,
+a:visited,
+a:hover,
+a:active,
+a:focus {
+  all: unset;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+#conteudo {
+  text-align: center;
+  background-color: white;
+  width: 900px;
+  max-width: 92.1vw;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+#criador {
+  font-family: 'Courier New', Courier, monospace;
+}
