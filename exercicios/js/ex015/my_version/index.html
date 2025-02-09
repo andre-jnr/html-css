@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Verificador de idade</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <h1>Verificador de idade</h1>
+    <div id="conteudo">
+      <div class="form">
+        <label for="ano_nascimento">Ano de Nascimento:</label>
+        <input type="number" name="ano_nascimento" id="ano_nascimento">
+      </div>
+      
+      <div class="form">
+        Sexo:
+        <input type="radio" name="sexo" id="masculino">
+        <label for="masculino">masculino</label>
+        <input type="radio" name="sexo" id="feminino">
+        <label for="feminino">feminino</label>
+      </div>
+
+      <div class="form">
+        <input type="submit" value="Verificar" onclick="verificarPessoa()">
+      </div>
+
+      <div class="container">
+        <p id="resultado">Preencha os dados acima de ver o resultado!</p>
+        <img src="" alt="">
+      </div>
+    </div>
+
+  <p id="criador">&#169; <a target="_blank" href="https://www.linkedin.com/in/andre-jnr/">André Júnior</a></p>
+  <script src="script.js"></script>
+  </main>
+</body>
+</html>
