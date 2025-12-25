@@ -28,7 +28,7 @@ body {
 /* ================= HEADER ================= */
 
 header {
-  height: 320px;
+  margin: 15px;
   display: flex;
   justify-content: center;
   align-items: center;
