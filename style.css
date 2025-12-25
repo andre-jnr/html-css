@@ -377,3 +377,33 @@ footer p {
 #projeto-social {
   background: url(imgs/projeto-social.png) center/cover;
 }
+
+/* Para Páginas Javascript */
+
+#identificador-estrangeiro-js {
+  background: url(imgs/js/identificador-estrangeiro-js.png) center/cover;
+}
+
+#sistema-multas {
+  background: url(imgs/js/sistema-multas.png) center/cover;
+}
+
+#voto {
+  background: url(imgs/js/voto.png) center/cover;
+}
+
+#horario {
+  background: url(imgs/js/horario.png) center/cover;
+}
+
+#dia-da-semana {
+  background: url(imgs/js/dia-da-semana.png) center/cover;
+}
+
+#horario-com-imagem {
+  background: url(imgs/js/14-horrario-com-imagem.png) center/cover;
+}
+
+#detector-de-idade {
+  background: url(imgs/js/15-detector-de-idade.png) center/cover;
+}

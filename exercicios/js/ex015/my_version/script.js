@@ -14,9 +14,9 @@ function verificarPessoa() {
   }
 
   if (idade === 1) {
-    resultado.innerHTML = `Dectetamos: ${genero} com ${idade} ano`;
+    resultado.innerHTML = `Detectamos: ${genero} com ${idade} ano`;
   } else {
-    resultado.innerHTML = `Dectetamos: ${genero} com ${idade} anos`;
+    resultado.innerHTML = `Detectamos: ${genero} com ${idade} anos`;
   }
 
   var img = document.querySelector('img');
