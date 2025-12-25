@@ -157,6 +157,25 @@ footer p {
   color: var(--white);
 }
 
+/* ================= Media query para ocultar imagem ================= */
+
+@media (max-width: 650px) {
+  .imagem {
+    display: none;
+  }
+
+  .conteudoHeader {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .texto h1 {
+    font-size: 2.2rem;
+  }
+
+}
+
+
 /* ================= IMPORTANDO IMAGENS PARA CARDS ================= */
 
 #ConceitosBasicos {
